@@ -31,7 +31,7 @@
   &__list:not(:last-child){
     margin-right: 100px;
   }
-  &__list:last-child{
+  &__list-link.open-popup{
     position: relative;
     padding-left: 36px;
     &::before{
@@ -59,7 +59,7 @@
     
   }
 
- 
+
   }
 
 

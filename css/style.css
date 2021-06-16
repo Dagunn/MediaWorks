@@ -126,12 +126,12 @@ body {
   margin-right: 100px;
 }
 
-.menu__list:last-child {
+.menu__list-link.open-popup {
   position: relative;
   padding-left: 36px;
 }
 
-.menu__list:last-child::before {
+.menu__list-link.open-popup::before {
   content: '';
   position: absolute;
   background-image: url("../images/user-icon.svg");
