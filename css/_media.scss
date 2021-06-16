@@ -1,0 +1,131 @@
+
+
+@media screen and ( max-width:1190px ){
+  .description{
+    &__item{
+      width: 100%;
+    }
+
+    &__inner{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+}
+
+
+@media screen and ( max-width:910px ){
+  .description{
+    padding-top: 80px;
+    
+    &__title{
+      font-size: 36px;
+    }
+  }
+  .dropdown{
+    display: block;
+  }
+
+  .menu__items{
+    display: none;
+  }
+  
+}
+
+
+@media screen and ( max-width:890px ){
+  .header{
+    &__content-title{
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and ( max-width:550px ){
+
+  .header{
+    &__content{
+      padding-top: 80px;
+      flex-direction: column-reverse;
+      &-right img{
+        width: 300px;
+      }
+      &-title{
+        padding-top: 20px;
+      }
+    }
+  }
+
+  .footer{
+    &__content{
+      padding: 50px 0 0 30px;
+    }
+    &__title{
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+
+  
+}
+
+
+@media screen and ( max-width:500px ){
+  .description{
+    &__item-img img{
+      max-width: 125px;
+    }
+    &__item-title{
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    &__item-text{
+      font-size: 13px;
+    }
+    &__title{
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  .footer{
+    padding-top: 50px;
+  }
+
+  .popup{
+    width: 385px;
+    &__btn{
+      padding: 13px 125px;
+    }
+   
+  }
+
+  .modal{
+    &__input-group input{
+      width: 300px;
+    }
+  }
+}
+
+
+@media screen and ( max-width:400px ){
+  .popup{
+    width: 300px;
+    &__title{
+      font-size: 25px;
+    }
+    &__btn{
+      padding: 12px 77px;
+    }
+  }
+
+  .modal{
+    &__input-group input{
+      width: 200px;
+    }
+}
+
+.header{
+  height: 750px;
+}
+}

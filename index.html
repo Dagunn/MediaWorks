@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo"><img src="images/logo.svg" alt="logo"></a>
+        <nav class="menu">
+          <div class="dropdown">
+              <button class="dropbtn dropbtn__mobile">
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+              </button>
+          
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#" class="menu__list-link">Клиентам</a>
+                <a href="#" class="menu__list-link">Войти</a>
+            </div>
+        </div>
+      
+
+          
+            
+          <ul class="menu__items">
+            <li class="menu__list"><a href="#" class="menu__list-link">Клиентам</a></li>
+            <li class="menu__list"><a href="#" class="menu__list-link open-popup ">Войти</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+    
+
+      
+    <div class="header__content">
+      <div class="header__content-left">
+        <h2 class="title header__content-title">Подбор авто в лизинг по выгодной цене</h2>
+        <p class="header__content-subtitle">IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</p>
+        <button class="button open-popup registration__btn">Регистрация</button>
+      </div>
+
+      <div class="header__content-right"><img src="images/header-img.svg" alt=""></div>
+    </div>
+    </div>
+
+
+    
+  </header>
+
+  <section class="description">
+    <div class="container">
+      <h4 class="description__title">Меньше условий – больше возможностей</h4>
+      <div class="description__inner">
+        <div class="description__item ">
+          <div class="description__item-info">
+            <h5 class="description__item-title">Экономия времени</h5>
+            <p class="description__item-text">Дополнительный канал потенциальных клиентов, готовых приобрести автомобиль, без затрат на рекламу и маркетинг.</p>
+          </div>
+          <div class="description__item-img">
+            <img src="images/description-1.svg" alt="img" class="item__img">
+          </div>
+        </div>
+
+        <div class="description__item ">
+          <div class="description__item-info">
+            <h5 class="description__item-title">Никаких задержек</h5>
+            <p class="description__item-text">Вы получаете запросы сразу же после отправки клиентом.</p>
+          </div>
+          <div class="description__item-img">
+            <img src="images/description-2.svg" alt="img" class="item__img">
+          </div>
+        </div>
+
+        <div class="description__item ">
+          <div class="description__item-info">
+            <h3 class="description__item-title">Максимальная информативность</h3>
+            <p class="description__item-text">В каждой заявке указан регион поиска, марка и модель авто, а так же  индивидуальные запросы клиента.</p>
+          </div>
+          <div class="description__item-img">
+            <img src="images/description-3.svg" alt="img" class="item__img">
+          </div>
+        </div>
+
+        <div class="description__item">
+          <div class="description__item-info">
+            <h5 class="description__item-title">Удобство общения</h5>
+            <p class="description__item-text">Для каждого запроса у вас открыт чат
+              с клиентом с возможностью отправки документов.</p>
+          </div>
+          <div class="description__item-img">
+            <img src="images/description-4.svg" alt="img" class="item__img">
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__content">
+          <h3 class="title footer__title">Регистрируйся и получай актуальные запросы на автомобили от заинтерисованных клиентов</h3>
+          <button class="button open-popup registration__btn">Регистрация</button>
+       </div>
+      </div>
+      
+    </div>
+  </footer>
+
+
+
+
+<div class="popup-bg">
+  <div class="popup">
+    <img src="images/close.svg" alt="#" class="close">
+    <h2 class="popup__title">Авторизация</h2>
+    <form action="#" class="popup-form">
+      <div class="modal__input-group">
+        <label for="modal__user-email" class="popup__label">E-mail</label>
+        <input type="text" name="popup-form" placeholder="Введите e-mail" id="#modal__user-name">
+      </div>
+
+      <div class="modal__input-group">
+        <label for="modal__user-password" class="popup__label">Пароль</label>
+        <input type="text" name="popup-form" placeholder="Введите пароль" id="#modal__user-password">
+      </div>
+      
+      
+      <button class="popup__btn registration__btn">Войти</button>
+    </form>
+  </div>
+</div>
+
+  
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
